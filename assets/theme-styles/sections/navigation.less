@@ -1,0 +1,44 @@
+#nav-wrapper {
+  width: @large-desktop;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.main-navigation {
+  display: inline-block;
+  background: @menu-bg;
+  border: solid 3px (@menu-bg+#111);
+  clear: both;
+  margin: auto;
+  margin-bottom: 20px;
+  height: auto;
+  text-align: left;
+
+  a {
+    color: @menu-link-color;
+    padding: 25px 15px;
+    &:hover {
+      color: saturate(@menu-link-color, 35%);
+    }
+
+  }
+  ul ul {
+    background: saturate(@menu-bg, 55%);
+    top: 4.2em;
+    a {
+      padding: 5px 10px;
+      &:hover {
+        background: @menu-link-color;
+        color: @menu-bg;
+      }
+    }
+  }
+}
+.main-navigation li:hover > a {
+  color: saturate(@menu-link-color, 35%);
+  background: saturate(@menu-bg, 1%);
+}
+.main-navigation ul ul :hover > a {
+  background: @menu-link-color;
+  color: @menu-bg;
+}

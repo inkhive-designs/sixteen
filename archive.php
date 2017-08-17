@@ -90,7 +90,7 @@ get_header(); ?>
 						echo "</a>"; 
 					} 
 						
-					get_template_part( 'content', get_post_format() );
+					get_template_part( 'modules/content/content', get_post_format() );
 				?>
 
 			<?php endwhile; ?>

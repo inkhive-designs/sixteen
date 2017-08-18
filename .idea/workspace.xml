@@ -2,85 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0aff3c4-e084-4dc6-84ef-f7227f01d681" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/slider-swiper.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/404.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/_init_sections.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/comments.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/navigation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/single.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/universal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/skins/_init.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/skins/default.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/woocommerce.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_customizer_controls.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_sanitization.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/custom-css.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/footer-text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/misc-scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/sidebar-loc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/social-icons.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/theme-functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/_customizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/masthead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/navigation/main-menu.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.less" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content-home.php" afterPath="$PROJECT_DIR$/modules/content/content-home.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content-page-no-title.php" afterPath="$PROJECT_DIR$/modules/content/content-page-no-title.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content-page.php" afterPath="$PROJECT_DIR$/modules/content/content-page.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content-single.php" afterPath="$PROJECT_DIR$/modules/content/content-single.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content.php" afterPath="$PROJECT_DIR$/modules/content/content.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/admin.css" afterPath="$PROJECT_DIR$/assets/css/admin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/layouts/content-sidebar.css" afterPath="$PROJECT_DIR$/assets/css/layouts/content-sidebar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/layouts/sidebar-content.css" afterPath="$PROJECT_DIR$/assets/css/layouts/sidebar-content.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo-theme.css" afterPath="$PROJECT_DIR$/assets/css/nivo-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/nivo.css" afterPath="$PROJECT_DIR$/assets/css/nivo/nivo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/bar/Icon" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/bar/Icon" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/bar/arrows.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/bar/arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/bar/bar.css" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/bar/bar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/bar/bullets.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/bar/bullets.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/bar/loading.gif" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/bar/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/dark/Icon" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/dark/Icon" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/dark/arrows.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/dark/arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/dark/bullets.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/dark/bullets.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/dark/dark.css" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/dark/dark.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/dark/loading.gif" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/dark/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/arrows-o.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/arrows-o.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/arrows.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/arrows@2x.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/arrows@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/bullets-alt.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/bullets-alt.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/bullets-o.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/bullets-o.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/bullets.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/bullets.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/bullets@2x.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/bullets@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/default.css" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/default/loading.gif" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/default/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/light/arrows.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/light/arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/light/bullets.png" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/light/bullets.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/light/light.css" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/light/light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/nivo/themes/light/loading.gif" afterPath="$PROJECT_DIR$/assets/css/nivo/themes/light/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon-sociocon.php" afterPath="$PROJECT_DIR$/modules/social/icon-sociocon.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page-blank.php" afterPath="$PROJECT_DIR$/templates/page-blank.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page-full-width-no-title.php" afterPath="$PROJECT_DIR$/templates/page-full-width-no-title.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page-full-width.php" afterPath="$PROJECT_DIR$/templates/page-full-width.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.php" afterPath="$PROJECT_DIR$/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/customizer.php" afterPath="$PROJECT_DIR$/inc/customizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,7 +14,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="_init_sections.less" pinned="false" current-in-tab="false">
@@ -129,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/default.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -139,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/universal.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="400" column="21" lean-forward="true" selection-start-line="400" selection-start-column="21" selection-end-line="400" selection-end-column="21" />
+              <caret line="400" column="21" lean-forward="false" selection-start-line="400" selection-start-column="21" selection-end-line="400" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -149,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -285,36 +206,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sixteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sixteen" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sixteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sixteen" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="sixteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sixteen" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +236,27 @@
       <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\sixteen\assets\css\nivo\themes\dark" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -358,15 +282,6 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -406,27 +321,28 @@
       <workItem from="1502945589311" duration="1918000" />
       <workItem from="1502947540944" duration="81000" />
       <workItem from="1502947691152" duration="1636000" />
-      <workItem from="1502949599036" duration="718000" />
+      <workItem from="1502949599036" duration="1580000" />
+      <workItem from="1502951674958" duration="79000" />
+      <workItem from="1503060888112" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17210000" />
+    <option name="totallyTimeSpent" value="18163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23788546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -456,7 +372,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -721,13 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less" />
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/single.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -743,14 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/__main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/__main.less" />
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/404.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -769,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -786,14 +689,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/default.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -809,7 +711,7 @@
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/universal.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="400" column="21" lean-forward="true" selection-start-line="400" selection-start-column="21" selection-end-line="400" selection-end-column="21" />
+          <caret line="400" column="21" lean-forward="false" selection-start-line="400" selection-start-column="21" selection-end-line="400" selection-end-column="21" />
           <folding />
         </state>
       </provider>

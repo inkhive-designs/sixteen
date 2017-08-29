@@ -208,3 +208,5 @@ Version 1.5.6
 	
 	i) WooCommerce Update Fix
 	ii) Added Support for WooCommerce Product Gallery Lightbox Plugin
+	
+Version 1.6.0	

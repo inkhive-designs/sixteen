@@ -23,4 +23,8 @@
 		
 		</div><!--#top-section-->
 	
-		<div id="content" class="site-content container">	
+		<div id="content" class="site-content container">
+
+            <?php get_template_part('framework/featured-components/post-large', 'boxes'); ?>
+
+            <?php get_template_part('framework/featured-components/post', 'square'); ?>

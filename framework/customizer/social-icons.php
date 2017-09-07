@@ -16,6 +16,42 @@ $social_networks = array( //Redefinied in Sanitization Function.
     'flickr' => __('Flickr','sixteen'),
 );
 
+// Social Icons Effects
+        $social_icon_styles = array( //Redefinied in Sanitization Function.
+            'default' => __('Default','sixteen'),
+            'style1' => __('Style 1','sixteen'),
+            'style2' => __('Style 2','sixteen'),
+            'style3' => __('Style 3','sixteen'),
+        );
+
+    $wp_customize->add_setting(
+        'sixteen_social_styles', array(
+        'sanitize_callback' => 'sixteen_sanitize_social_styles',
+        'default' => 'default'
+    ));
+
+    $wp_customize->add_control( 'sixteen_social_styles', array(
+        'settings' => 'sixteen_social_styles',
+        'label' => __('Icon Effects','sixteen'),
+        'section' => 'sixteen_social_section',
+        'type' => 'select',
+        'choices' => $social_icon_styles,
+    ));
+
+    function sixteen_sanitize_social_styles($input) {
+        $social_icon_styles = array(
+            'default',
+            'style1',
+            'style2',
+            'style3'
+        );
+        if (in_array($input, $social_icon_styles)):
+            return $input;
+        else:
+            return '';
+        endif;
+    }
+
 $social_count = count($social_networks);
 
 for ($x = 1 ; $x <= ($social_count - 3) ; $x++) :

@@ -25,6 +25,8 @@ require_once get_template_directory().'/framework/customizer/_customizer_control
 require_once get_template_directory().'/framework/customizer/custom-css.php';
 require_once get_template_directory().'/framework/customizer/_sanitization.php';
 require_once get_template_directory().'/framework/customizer/header.php';
+require_once get_template_directory().'/framework/customizer/post-square.php';
+require_once get_template_directory().'/framework/customizer/post-large-boxes.php';
 require_once get_template_directory().'/framework/customizer/sidebar-loc.php';
 require_once get_template_directory().'/framework/customizer/_slider-swiper.php';
 require_once get_template_directory().'/framework/customizer/footer-text.php';

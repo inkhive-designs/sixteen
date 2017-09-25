@@ -260,7 +260,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 @media screen and (max-width: @large-desktop) and (min-width: @small-desktop) {
 
   .container, #nav-wrapper {
-    width: (0.95*@small-desktop);
+    width: (0.95*@small-desktop) !important;
   }
   #primary-home {
     padding-left: 68px;
@@ -275,7 +275,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 
 @media screen and (max-width: @small-desktop) and (min-width: @ipad) {
   .container, #nav-wrapper {
-    width: (0.95*@ipad);
+    width: (0.95*@ipad) !important;
   }
   #primary-home {
     padding-left: 88px;
@@ -297,9 +297,9 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
   }
 
 }
-@media screen and (max-width: @ipad) and (min-width: @smartphone) {
+@media screen and (max-width: @ipad)  {
   .container {
-    width: (0.95*@smartphone);
+    width: (0.95*@smartphone) !important;
   }
   .main-navigation {
     top: 0px;
@@ -343,8 +343,12 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
     font-size: 12px;
   }
   #footer-sidebar .footer-column {
-    width: 80%;
+    width: 80% !important;
+    text-align: center;
     margin: auto;
+  }
+  #footer-sidebar {
+    padding-left: 50px;
   }
   // ++++++++++++++++++++++++++++ Reduce the Menu Here +++++++++++++++++++++++++++++++++++++++
 
@@ -427,7 +431,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
     top: -8px;
   }
   .menu-toggle:before {
-    content: url('../images/menu.png');
+    content: url('../../../images/menu.png');
     height: 0;
     width: 0px;
     margin-right: 20px;
@@ -488,6 +492,12 @@ body {
 }
 .blog #content {
   padding-left: 30px;
+}
+
+@media screen and (max-width: @large-desktop) {
+  .blog #content {
+    padding-left: 15px !important;
+  }
 }
 /* Links
 ------------------------------------------------- */

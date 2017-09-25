@@ -1,3 +1,10 @@
+.grid {
+  @media screen and (max-width: 1100px) and (min-width: 768px) {
+    .sixteenth:nth-child(n+3) {
+      display:none;
+    }
+  }
+}
 figure.sixteenth {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
@@ -8,6 +15,15 @@ figure.sixteenth {
   max-width: 320px;
   max-height: 220px;
   text-align: center;
+  @media screen and (max-width: @large-desktop) {
+    max-width: 415px;
+  }
+  @media screen and (max-width: @small-desktop) {
+    max-width: 323px !important;
+  }
+  @media screen and (max-width: @ipad) {
+    min-width: 414px !important;
+  }
 }
 figure.sixteenth * {
   -webkit-box-sizing: border-box;

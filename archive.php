@@ -88,9 +88,9 @@ get_header(); ?>
 					echo "'>";
 						the_post_thumbnail();
 						echo "</a>"; 
-					} 
-						
-					get_template_part( 'modules/content/content', get_post_format() );
+					}
+
+                get_template_part( 'modules/content/content', 'home' );
 				?>
 
 			<?php endwhile; ?>

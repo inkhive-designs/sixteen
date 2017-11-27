@@ -16,11 +16,11 @@ get_header(); ?>
 		<h2 id="page-title"><?php single_cat_title(); ?></h2>
 			<main id="main" class="site-main" role="main">
 	
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( have_posts() ) : the_post();
+
+                    get_template_part( 'modules/content/content', 'home' );
 	
-					<?php get_template_part( 'content', 'home' ); ?>
-	
-					<?php
+
 						// If comments are open or we have at least one comment, load up the comment template
 						if ( comments_open() || '0' != get_comments_number() )
 							comments_template();

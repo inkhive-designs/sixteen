@@ -3,7 +3,9 @@
 function sixteen_customize_register_social( $wp_customize ) {
 $wp_customize->add_section('sixteen_social_section', array(
     'title' => __('Social Icons','sixteen'),
-    'priority' => 44 ,
+    'priority' => 2,
+    'panel'      => 'sixteen_header_panel'
+
 ));
 
 $social_networks = array( //Redefinied in Sanitization Function.

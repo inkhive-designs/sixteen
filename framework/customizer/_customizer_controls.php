@@ -44,7 +44,7 @@ if (class_exists('WP_Customize_Control')) {
                 array(
                     'name'              => '_customize-dropdown-categories-' . $this->id,
                     'echo'              => 0,
-                    'show_option_none'  => __( '&mdash; Select &mdash;', 'plum' ),
+                    'show_option_none'  => __( '&mdash; Select &mdash;', 'sixteen' ),
                     'option_none_value' => '0',
                     'selected'          => $this->value(),
                 )

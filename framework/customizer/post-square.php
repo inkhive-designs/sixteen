@@ -7,6 +7,8 @@ function sixteen_customize_square( $wp_customize ) {
         array(
             'title'     => __('Featured Posts Squares','sixteen'),
             'priority'  => 40,
+            'panel'     => 'sixteen_farea_panel'
+
         )
     );
 

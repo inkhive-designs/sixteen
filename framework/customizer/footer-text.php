@@ -6,6 +6,8 @@ $wp_customize-> add_section(
         'title'			=> __('Custom Footer Text','sixteen'),
         'description'	=> __('Enter your Own Copyright Text.','sixteen'),
         'priority'		=> 42,
+        'panel'         => 'sixteen_designs_panel'
+
     )
 );
 

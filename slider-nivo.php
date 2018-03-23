@@ -12,15 +12,15 @@
 				  		
 				  			$url = esc_url ( get_theme_mod('sixteen_slide_url'.$i) );
 				  			$img = esc_url ( get_theme_mod('sixteen_slide_img'.$i) );
-				  			$title = get_theme_mod('sixteen_slide_title'.$i);
-				  			$desc = get_theme_mod('sixteen_slide_desc'.$i);
+				  			$title = esc_html(get_theme_mod('sixteen_slide_title'.$i));
+				  			$desc = esc_html(get_theme_mod('sixteen_slide_desc'.$i));
 				  			
 						
 							echo "<div class='slide'><a href='".$url."'><img src='".$img."' title='#caption_".$i."'></a></div>"; 
 					endfor;
 					?>  
 	    		</div><!--#slider-->
-	    		<?php for ($i=1; $i < $count_x; $i++) {
+	    		<?php for ($i=1; $i <= $count_x; $i++) {
 		    		
 		    			$url = esc_url ( get_theme_mod('sixteen_slide_url'.$i) );
 			  			$img = esc_url ( get_theme_mod('sixteen_slide_img'.$i) );

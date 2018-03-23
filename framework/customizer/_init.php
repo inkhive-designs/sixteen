@@ -13,6 +13,10 @@
 function sixteen_customize_register( $wp_customize ) {
     $wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
     $wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
+    $wp_customize->get_section( 'header_image' )->panel  = 'sixteen_header_panel';
+    $wp_customize->get_section( 'colors' )->panel  = 'sixteen_designs_panel';
+    $wp_customize->get_section( 'background_image' )->panel  = 'sixteen_designs_panel';
+    $wp_customize->get_setting('header_textcolor')->default = "ffffff";
 
 }
 add_action( 'customize_register', 'sixteen_customize_register' );

@@ -2,11 +2,19 @@
 
 function sixteen_customize_large_boxes( $wp_customize ) {
     //Featured Posts Square
+    $wp_customize->add_panel('sixteen_farea_panel', array(
+        'priority' =>5,
+        'capability' => 'edit_theme_options',
+        'theme_supports' => '',
+        'title' => __('Featured Areas', 'sixteen')
+    ));
+
     $wp_customize->add_section(
         'sixteen_boxes_section',
         array(
             'title'     => __('Featured Posts Boxes','sixteen'),
             'priority'  => 40,
+            'panel'     => 'sixteen_farea_panel'
         )
     );
 

@@ -1,6 +1,5 @@
 /*Homepage
 --------------------------------------------------*/
-
 h2#page-title, .archive h1.page-title, .page h1.entry-title {
   font-size: x-large;
   font-family: Helvetica, Arial, sans-serif;
@@ -25,7 +24,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
   white-space: 230px;
   float: left;
   display: block;
-  height: 230px;
+  height: 260px;
 }
 
 .homepage-article {
@@ -57,7 +56,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
     }
   }
 
-  h1.entry-title {
+  h3.entry-title {
     padding-top: 4px;
     text-align: center;
     border-top: solid 1px desaturate(@menu-link-color, 50%);
@@ -261,6 +260,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 
   .container, #nav-wrapper {
     width: (0.95*@small-desktop) !important;
+    //width: 300px !important;
   }
   #primary-home {
     padding-left: 68px;
@@ -276,6 +276,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 @media screen and (max-width: @small-desktop) and (min-width: @ipad) {
   .container, #nav-wrapper {
     width: (0.95*@ipad) !important;
+    //width: 300px !important;
   }
   #primary-home {
     padding-left: 88px;
@@ -291,8 +292,8 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
     float: none;
   }
   #secondary {
-    width: 70%;
-    float: none;
+    width: 95% !important;
+    float: left !important;
     margin: auto;
   }
 
@@ -300,6 +301,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 @media screen and (max-width: @ipad)  {
   .container {
     width: (0.95*@smartphone) !important;
+   // width: 300px !important;
   }
   .main-navigation {
     top: 0px;
@@ -311,6 +313,7 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
   #secondary {
     width: 95%;
     padding-left: 10px;
+    float: left !important;
   }
   .pagination {
     margin-left: -50px;
@@ -343,19 +346,21 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
     font-size: 12px;
   }
   #footer-sidebar .footer-column {
-    width: 80% !important;
-    text-align: center;
-    margin: auto;
+    width: 100% !important;
+    text-align: left;
+
+    margin: 0px;
   }
   #footer-sidebar {
-    padding-left: 50px;
+   // padding-left: 50px;
   }
   // ++++++++++++++++++++++++++++ Reduce the Menu Here +++++++++++++++++++++++++++++++++++++++
 
 }
 @media screen and (max-width: @smartphone) {
   .container {
-    width: @dumbphone;
+    //width: @dumbphone;
+    width: 300px !important;
   }
   #primary {
     width: 95%;
@@ -385,7 +390,8 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
   .page-template-page-full-width-php, .home {
     #secondary {
       .widget {
-        width: (0.95*@dumbphone);
+        //width: (0.95*@dumbphone);
+        width: 300px !important;
       }
     }
   }
@@ -408,11 +414,17 @@ h2#page-title, .archive h1.page-title, .page h1.entry-title {
 
   #footer-sidebar .footer-column {
     width: 80%;
+    width: 100%;
     margin: auto;
   }
 
 }
-
+@media screen and (max-width: @ipad) and (min-width: @smartphone) {
+  .container, #nav-wrapper {
+    // width: (0.95*@small-desktop) !important;
+    width: 450px !important;
+  }
+}
 /* Responsive Menu Bar
 -------------------------------------------------- */
 
@@ -510,4 +522,25 @@ a:hover,
 a:focus,
 a:active {
   color: desaturate(@link-color, 30%);
+}
+#masthead .site-branding {
+  #site-logo {
+    display: inline-block;
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    float: none;
+    @media screen and (max-width: 768px) {
+      float: none;
+    }
+  }
+}
+
+/* Single
+-------------------------------------------------------*/
+.single {
+  #content{
+    margin-top: 20px;
+  }
 }

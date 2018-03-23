@@ -6,6 +6,8 @@ $wp_customize->add_section(
     array(
         'title'     => __('Sidebar Locations','sixteen'),
         'priority'  => 41,
+        'panel'         => 'sixteen_designs_panel'
+
     )
 );
 

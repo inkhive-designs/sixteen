@@ -14,7 +14,7 @@
     
     <div class="container">
 		<div class="site-info">
-			<?php printf( __( 'Sixteen Theme by %1$s', 'sixteen' ), '<a href="http://inkhive.com" rel="designer">InkHive</a>' ); ?>
+			<?php printf( __( 'Sixteen Theme by %1$s', 'sixteen' ), '<a target="blank" href="http://inkhive.com" rel="designer">InkHive</a>' ); ?>
 		</div><!-- .site-info -->
 		
         <div id="footertext">

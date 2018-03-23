@@ -1,6 +1,7 @@
 .slider-parent {
   position: relative;
-  top: -30px;
+  //top: -30px;
+  margin-bottom: 80px;
 }
 .slider-wrapper {
   width: @container;
@@ -30,7 +31,10 @@
   display: none;
 }
 div.slide-title {
-  font-size: 36px;
+  font-size: 24px;
+  @media screen and (max-width: 767px){
+    font-size: 18px;
+  }
   span {
     padding: 10px 20px;
     background: fade(black,80%);
@@ -44,7 +48,6 @@ div.slide-title {
 div.slide-description {
   padding: 5px;
   margin-top: 7px;
-  margin-left: 20px;
   background: fade(@link-color,90%);
   display: inline-block;
 }

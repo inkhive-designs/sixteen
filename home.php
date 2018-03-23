@@ -13,7 +13,7 @@
 get_header(); ?>
 
 	<div id="primary-home" class="content-area">
-		<h2 id="page-title"><?php _e("Recent Posts", 'sixteen') ?></h2>
+		<h2 id="page-title"><?php esc_html_e("Recent Posts", 'sixteen') ?></h2>
 			<main id="main" class="site-main" role="main">
 	
 				<?php while ( have_posts() ) : the_post(); ?>

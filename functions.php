@@ -4,7 +4,16 @@
  */
 
 require get_template_directory() . '/framework/theme-functions.php';
+
+/**
+ * Implement the Custom Header feature.
+ */
 require get_template_directory() . '/inc/custom-header.php';
+
+/**
+ * Implement the Custom CSS Mods.
+ */
+require get_template_directory() . '/inc/css-mods.php';
 
 /**
  * Custom template tags for this theme.

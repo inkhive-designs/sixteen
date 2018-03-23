@@ -217,3 +217,16 @@ Version 1.6.4
 
     i) Category Posts Issue Fixed
     ii) Archive Page Posts Issue Fixed
+
+Version: 1.7.0
+
+    i) Custom logo added.
+    ii) Admin panel minimized.
+    iii) Header Image bug fixed.
+    iv) Site title and tagline color bug fixed.
+    v) Featured post boxes area major bug fixed.
+    vi) Featured post large area major bug fixed.
+    vii) Default blog layout bug fixed.
+    viii) Slider nivo major bug fixed.
+    ix) Main navigation and Mobile navigation major bug fixed.
+    x) Other minor bug fixed.

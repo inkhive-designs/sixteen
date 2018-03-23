@@ -22,6 +22,9 @@ if ( !function_exists( 'sixteen_setup' ) ) :
         add_theme_support( 'post-thumbnails' );
         add_theme_support( 'title-tag' );
         add_image_size('homepage-thumb',240,145,true);
+        add_image_size('sixteen-pop-thumb',542, 340,true);
+
+
         register_nav_menus( array(
             'primary' => __( 'Primary Menu', 'sixteen' ),
         ) );
@@ -42,6 +45,14 @@ if ( !function_exists( 'sixteen_setup' ) ) :
         add_theme_support('woocommerce');
 
         add_theme_support( 'wc-product-gallery-lightbox' );
+
+
+        /**
+         * Add support for core custom logo.
+         *
+         * @link https://codex.wordpress.org/Theme_Logo
+         */
+        add_theme_support( 'custom-logo');
 
     }
 endif; // sixteen_setup

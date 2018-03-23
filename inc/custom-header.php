@@ -10,7 +10,7 @@
  */
 function sixteen_custom_header_setup() {
 	add_theme_support( 'custom-header', array(
-		'default-image'          => get_template_directory_uri().'/images/tracks.jpg',
+		'default-image'          => get_template_directory_uri().'/images/city.jpeg',
 		'default-text-color'     => 'fff',
 		'width'                  => 1600,
 		'height'                 => 400,
@@ -18,6 +18,14 @@ function sixteen_custom_header_setup() {
 		'admin-head-callback'    => 'sixteen_admin_header_style',
 		'admin-preview-callback' => 'sixteen_admin_header_image',
 	) );
+    register_default_headers( array(
+            'default-image'    => array(
+                'url'            => '%s/images/city.jpeg',
+                'thumbnail_url'    => '%s/images/city.jpeg',
+                'description'    => __('Default Header Image', 'sixteen')
+            )
+        )
+    );
 }
 add_action( 'after_setup_theme', 'sixteen_custom_header_setup' );
 

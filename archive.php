@@ -45,22 +45,22 @@ get_header(); ?>
 							printf( __( 'Year: %s', 'sixteen' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
 
 						elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', 'sixteen' );
+                            esc_html_e( 'Asides', 'sixteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', 'sixteen');
+                            esc_html_e( 'Images', 'sixteen');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', 'sixteen' );
+                            esc_html_e( 'Videos', 'sixteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', 'sixteen' );
+                            esc_html_e( 'Quotes', 'sixteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', 'sixteen' );
+                            esc_html_e( 'Links', 'sixteen' );
 
 						else :
-							_e( 'Archives', 'sixteen' );
+                            esc_html_e( 'Archives', 'sixteen' );
 
 						endif;
 					?>

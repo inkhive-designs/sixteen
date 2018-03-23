@@ -6,7 +6,7 @@ function sixteen_customize_register_misc( $wp_customize ) {
         'sixteen_sec_upgrade',
         array(
             'title'     => __('Discover SIXTEEN PLUS','sixteen'),
-            'priority'  => 45,
+            'priority'  => 1,
         )
     );
 

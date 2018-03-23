@@ -14,6 +14,10 @@ figure.sixteenth {
   min-width: 220px;
   max-width: 320px;
   max-height: 220px;
+  @media screen and (max-width: 767px){
+    min-width: 260px;
+    max-width: 260px;
+  }
   text-align: center;
   @media screen and (max-width: @large-desktop) {
     max-width: 415px;
@@ -21,7 +25,7 @@ figure.sixteenth {
   @media screen and (max-width: @small-desktop) {
     max-width: 323px !important;
   }
-  @media screen and (max-width: @ipad) {
+  @media screen and (min-width: 500px) and (max-width: @ipad) {
     min-width: 414px !important;
   }
 }
@@ -34,8 +38,13 @@ figure.sixteenth * {
 figure.sixteenth img {
   opacity: 1;
   width: 100%;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
+  @media screen and (max-width: 767px){
+    opacity: 0.5;
+  }
+  @media screen and (min-width: 767px) {
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
 }
 figure.sixteenth:after {
   background: black;
@@ -51,6 +60,7 @@ figure.sixteenth:after {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 figure.sixteenth figcaption {
   position: absolute;
   top: 50%;
@@ -67,7 +77,9 @@ figure.sixteenth h2,
 figure.sixteenth p {
   margin: 0;
   width: 100%;
-  opacity: 0;
+  @media screen and (min-width: 767px) {
+    opacity: 0;
+  }
 }
 figure.sixteenth h2 {
   padding: 0 30px;
@@ -88,12 +100,15 @@ figure.sixteenth a {
   position: absolute;
   z-index: 1;
 }
+@media screen and (min-width: 767px) {
+
 figure.sixteenth:hover:after,
 figure.sixteenth.hover:after {
   -webkit-transform: skew(-45deg) scaleX(1);
   transform: skew(-45deg) scaleX(1);
   transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 figure.sixteenth:hover figcaption h2,
 figure.sixteenth.hover figcaption h2,
 figure.sixteenth:hover figcaption p,
@@ -103,6 +118,7 @@ figure.sixteenth.hover figcaption p {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
 figure.sixteenth:hover figcaption h2,
 figure.sixteenth.hover figcaption h2 {
   opacity: 1;
@@ -111,7 +127,7 @@ figure.sixteenth:hover figcaption p,
 figure.sixteenth.hover figcaption p {
   opacity: 0.7;
 }
-
+}
 
 body {
   background-color: #212121;

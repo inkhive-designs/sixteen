@@ -17,7 +17,17 @@ jQuery(document).ready(function() {
 		
 	jQuery(window).bind('scroll', function() {
 		hefct();
-	});		
+	});
+
+    jQuery('#site-navigation ul.menu').slicknav({
+        label: 'Menu',
+        duration: 1000,
+        easingOpen: "easeOutBounce", //available with jQuery UI
+        prependTo:'#slickmenu',
+         showChildren: false,
+        closeOnClick: true
+    });
+
 
 });	
 jQuery(window).load(function(){

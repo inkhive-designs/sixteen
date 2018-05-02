@@ -230,3 +230,7 @@ Version: 1.7.0
     viii) Slider nivo major bug fixed.
     ix) Main navigation and Mobile navigation major bug fixed.
     x) Other minor bug fixed.
+
+Version: 1.7.1
+
+    i) Search form unwanted issue fixed.

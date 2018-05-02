@@ -17,8 +17,8 @@
       <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/changelog.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="222" column="25" lean-forward="true" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="215" column="13" lean-forward="true" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,8 +120,6 @@
         <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/post-square.less" />
         <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/post-large-boxes.less" />
         <option value="$PROJECT_DIR$/assets/theme-styles/sections/navigation.less" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/changelog.txt" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/archive.php" />
         <option value="$PROJECT_DIR$/comments.php" />
@@ -131,6 +129,8 @@
         <option value="$PROJECT_DIR$/searchform.php" />
         <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/inc/template-tags.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/changelog.txt" />
       </list>
     </option>
   </component>
@@ -140,7 +140,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -283,35 +286,36 @@
       <workItem from="1511764045151" duration="163000" />
       <workItem from="1521695419255" duration="16131000" />
       <workItem from="1521780040719" duration="28667000" />
+      <workItem from="1525235581284" duration="355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101193000" />
+    <option name="totallyTimeSpent" value="101548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +330,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="222" column="25" lean-forward="true" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework/admin_modules/register_widgets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -339,9 +350,6 @@
           <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/admin_modules/pagination.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/featured-components/post-large-boxes.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -368,20 +376,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="112" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="112" />
-          <folding>
-            <element signature="e#40#46#1" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/content/content-page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/content/content-page-no-title.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/header/masthead.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/navigation/main-menu.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,39 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-blank.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-full-width.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-full-width-no-title.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/global/wrapper-end.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/global/wrapper-start.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product/tabs/description.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/default.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/category.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -430,32 +393,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepros-6.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/header.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,10 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="85" column="50" lean-forward="true" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
-          <folding>
-            <element signature="e#23#29#1" expanded="true" />
-            <element signature="e#35#41#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -592,17 +522,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/___searchform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/header/masthead.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/changelog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="222" column="25" lean-forward="true" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="215" column="13" lean-forward="true" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
         </state>
       </provider>
     </entry>

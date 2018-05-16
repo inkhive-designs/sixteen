@@ -26,7 +26,7 @@ function sixteen_customize_large_boxes( $wp_customize ) {
     $wp_customize->add_control(
         'sixteen_eta_enable', array(
             'settings' => 'sixteen_boxes_enable',
-            'label'    => __( 'Enable Featured Posts', 'sixteen' ),
+            'label'    => __( 'Enable Featured Posts on Homepage', 'sixteen' ),
             'section'  => 'sixteen_boxes_section',
             'type'     => 'checkbox',
         )

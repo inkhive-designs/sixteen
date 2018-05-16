@@ -22,7 +22,7 @@
                         $image_url = $image_data[0];
                     else:
 
-                        $image_url = get_template_directory_uri()."/images/dthumb.jpg";
+                        $image_url = get_template_directory_uri()."/assets/images/dthumb.jpg";
                     endif;
 
                     ?>

@@ -18,7 +18,7 @@
 		</div><!-- .site-info -->
 		
         <div id="footertext">
-        	<?php echo esc_html(get_theme_mod('seller_footer_text')); ?>
+        	<?php echo esc_html(get_theme_mod('sixteen_footer_text')); ?>
         </div>    
         
         </div><!--.container-->

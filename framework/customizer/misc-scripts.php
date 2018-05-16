@@ -1,31 +1,34 @@
 <?php
-//sixteende
+
 function sixteen_customize_register_misc( $wp_customize ) {
-    //Upgrade
+    //Upgrade to Pro
     $wp_customize->add_section(
-        'sixteen_sec_upgrade',
+        'sixteen_sec_pro',
         array(
-            'title'     => __('Discover SIXTEEN PLUS','sixteen'),
-            'priority'  => 1,
+            'title'     => __('Important Links','sixteen'),
+            'priority'  => 2,
         )
     );
 
     $wp_customize->add_setting(
-        'sixteen_upgrade',
+        'sixteen_pro',
         array( 'sanitize_callback' => 'esc_textarea' )
     );
 
     $wp_customize->add_control(
-        new sixteen_WP_Customize_Upgrade_Control(
+        new Sixteen_WP_Customize_Upgrade_Control(
             $wp_customize,
-            'sixteen_upgrade',
+            'sixteen_pro',
             array(
-                'label' => __('More of Everything','sixteen'),
-                'description' => __('Sixteen Plus has more of Everything. More New Features, More Options, Unlimited Colors, More Fonts, More Layouts, Configurable Slider, Inbuilt Advertising Options, More Widgets, and a lot more options and comes with Dedicated Support. To Know More about the Pro Version, click here: <a href="http://inkhive.com/product/sixteen-plus/">Upgrade to Pro Version</a>.','sixteen'),
-                'section' => 'sixteen_sec_upgrade',
-                'settings' => 'sixteen_upgrade',
+                'description'	=> '<a class="sixteen-important-links" href="https://inkhive.com/contact-us/" target="_blank">'.__('InkHive Support Forum', 'sixteen').'</a>
+                                    <a class="sixteen-important-links" href="http://demo.inkhive.com/sixteen-plus/" target="_blank">'.__('Sixteen Plus Live Demo', 'sixteen').'</a>
+                                    <a class="sixteen-important-links" href="https://inkhive.com/documentation/sixteen/" target="_blank">'.__('Sixteen Documentation', 'sixteen').'</a>
+                                    <a class="sixteen-important-links" href="https://www.facebook.com/inkhivethemes/" target="_blank">'.__('We Love Our Facebook Fans', 'sixteen').'</a>
+                                    <a class="sixteen-important-links" href="https://wordpress.org/support/theme/sixteen/reviews" target="_blank">'.__('Review Sixteen on WordPress', 'sixteen').'</a>',
+                'section' => 'sixteen_sec_pro',
+                'settings' => 'sixteen_pro',
             )
         )
     );
 }
-add_action( 'customize_register', 'sixteen_customize_register_misc' );
+add_action('customize_register', 'sixteen_customize_register_misc');

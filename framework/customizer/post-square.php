@@ -20,7 +20,7 @@ function sixteen_customize_square( $wp_customize ) {
     $wp_customize->add_control(
         'sixteen_square_enable', array(
             'settings' => 'sixteen_square_enable',
-            'label'    => __( 'Enable Featured Posts', 'sixteen' ),
+            'label'    => __( 'Enable Featured Posts on Homepage', 'sixteen' ),
             'section'  => 'sixteen_square_section',
             'type'     => 'checkbox',
         )

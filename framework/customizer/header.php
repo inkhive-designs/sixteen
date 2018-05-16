@@ -2,7 +2,7 @@
 //Logo Settings
 function sixteen_customize_register_header( $wp_customize ) {
     $wp_customize->add_panel('sixteen_header_panel', array(
-        'priority' => 2,
+        'priority' => 5,
         'capability' => 'edit_theme_options',
         'theme_supports' => '',
         'title' => __('Header Settings', 'sixteen')

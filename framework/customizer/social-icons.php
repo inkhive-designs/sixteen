@@ -16,6 +16,9 @@ $social_networks = array( //Redefinied in Sanitization Function.
     'instagram' => __('Instagram','sixteen'),
     'rss' => __('RSS Feeds','sixteen'),
     'flickr' => __('Flickr','sixteen'),
+    'linkedin' => __('Linked In','sixteen'),
+    'vimeo' => __('Vimeo','sixteen'),
+    'youtube' => __('Youtube','sixteen'),
 );
 
 // Social Icons Effects
@@ -96,6 +99,9 @@ function sixteen_sanitize_social( $input ) {
         'instagram',
         'rss',
         'flickr',
+        'linkedin',
+        'vimeo',
+        'youtube',
     );
     if ( in_array($input, $social_networks) )
         return $input;

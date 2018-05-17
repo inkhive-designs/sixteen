@@ -283,3 +283,6 @@ Source: https://pixabay.com/en/service/terms/
 * Documentation & Theme Support Added
 * Minor Bug Fixes
 
+### Version 1.7.2
+
+* Mobile menu design bug fixed.

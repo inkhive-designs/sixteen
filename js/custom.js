@@ -19,16 +19,6 @@ jQuery(document).ready(function() {
 		hefct();
 	});
 
-    jQuery('#site-navigation ul.menu').slicknav({
-        label: 'Menu',
-        duration: 1000,
-        easingOpen: "easeOutBounce", //available with jQuery UI
-        prependTo:'#slickmenu',
-         showChildren: false,
-        closeOnClick: true
-    });
-
-
 });	
 jQuery(window).load(function(){
 	jQuery('#slider').nivoSlider({
@@ -75,4 +65,13 @@ jQuery(window).load(function(){
 
 		
 	});
+	
+	
+	//Mobile Menu
+    jQuery('.menu-link').bigSlide({
+        menu: '#menu',
+        easyClose: true,
+        side: 'left',
+        menuWidth: '19.5em',
+    });
 });

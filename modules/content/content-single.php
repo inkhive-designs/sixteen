@@ -14,11 +14,13 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<div class="featured-image-single">
-			<?php if (has_post_thumbnail() )
-				the_post_thumbnail();
-				?>
-		</div>
+		
+		<?php if ( has_post_thumbnail() && !get_theme_mod('sixteen_posts_header_image') ) : ?>
+			<div class="featured-image-single">
+				<?php the_post_thumbnail(); ?>
+			</div>
+		<?php endif; ?>
+		
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

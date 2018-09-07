@@ -13,7 +13,6 @@ function sixteen_scripts() {
     else {
         wp_enqueue_style( 'sixteen-layout', get_template_directory_uri()."/assets/css/layouts/content-sidebar.css" );
     }
-    wp_enqueue_style( 'sixteen-slicknav', get_template_directory_uri() . '/assets/css/slicknav.css' );
 
     wp_enqueue_style( 'sixteen-main-style', get_template_directory_uri()."/assets/theme-styles/css/default.css");
 
@@ -31,7 +30,7 @@ function sixteen_scripts() {
 
     wp_enqueue_script( 'sixteen-superfish', get_template_directory_uri() . '/js/superfish.js', array('jquery') );
 
-    wp_enqueue_script( 'sixteen-retina', get_template_directory_uri() . '/js/retina.min.js' );
+    //wp_enqueue_script( 'sixteen-retina', get_template_directory_uri() . '/js/retina.min.js' );
 
     wp_enqueue_script( 'sixteen-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery','sixteen-nivo-slider','sixteen-timeago','sixteen-superfish','jquery-effects-core') );
 

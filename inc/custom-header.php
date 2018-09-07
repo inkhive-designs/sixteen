@@ -61,7 +61,15 @@ function sixteen_header_style() {
 		}
 	<?php endif; 
 		//Check if user has defined any header image.
-		if ( get_header_image() ) :
+		if ( is_single() && has_post_thumbnail() && get_theme_mod('sixteen_posts_header_image') ) :
+	?>
+		#header-image {
+			background: url( <?php echo get_the_post_thumbnail_url() ?> ) no-repeat #111;
+			background-position: center top;
+			background-size: cover;
+		}
+	<?php
+		elseif ( get_header_image() ) :
 	?>
 		#header-image {
 			background: url(<?php echo get_header_image(); ?>) no-repeat #111;

@@ -15,6 +15,8 @@
 <div id="page" class="hfeed site">
     
     <div id="top-section">
+	    <?php get_template_part('modules/navigation/mobile', 'menu'); ?>
+	    
         <?php get_template_part('modules/header/masthead'); ?>
 
         <?php get_template_part('modules/navigation/main','menu'); ?>
